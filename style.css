@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* Shared Code */
+.masterwid{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.btn{
+    padding: 5px 14px;
+    color: #006A50;
+    border: 1px solid #006A50;
+    border-radius: 6px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+.btn2{
+    padding: 5px 15px;
+    color: white;
+    border-radius: 6px;
+    background-color:rgba(0, 106, 80, 1);
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+}
+
+/* Header Styling */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+   
+}
+/* Hero Styling */
+
+.hero_parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 30px;
+    background-color: #c6e4d6;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.hero_parent .hero_left{
+    width: 500px;
+}
+.hero_left h2{
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 600;
+}
+.hero_left h1{
+    font-size: 50px;
+    color: rgba(14, 14, 14, 1);
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+/* Pillars of "Bangladesh 2.0 styling */
+
+.pillars-section-main{
+      margin-top: 40px;
+}
+
+.pillars-section-title {
+    color: rgba(14, 14, 14, 1);
+    font-size: 30px;
+  
+}
+.pillars_card img{
+    width: 40px;
+}
+.pillars_card_parant{
+    display: flex;
+    gap: 20px;
+}
+.pillars_card{
+    width: 250px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.085);
+    padding: 14px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction:column;
+    gap: 15px;
+    flex:1;
+    margin-top: 25px;
+}
+.pillars_card p{
+    color: rgba(14, 14, 14, 0.7);
+}
+/* The Vision of Future Styling */
+
+.future_container {
+    margin-top: 30px;
+}
+.future_container h2 {
+    font-size: 30px;
+    margin-bottom:15px;
+}
+.future_container p {
+    font-size: 14px;
+   color: rgba(14, 14, 14, 0.7);
+}
